@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Contoso.MCP.Menu": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7276",
+      "launchBrowser": false
+    }
+  }
+}
