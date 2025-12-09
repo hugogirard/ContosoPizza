@@ -3,6 +3,10 @@ targetScope = 'subscription'
 param location string
 param resourceGroupName string
 
+var tags = {
+  SecurityControl: 'Ignore'
+}
+
 resource rg 'Microsoft.Resources/resourceGroups@2025-04-01' = {
   name: resourceGroupName
   location: location
@@ -10,11 +14,11 @@ resource rg 'Microsoft.Resources/resourceGroups@2025-04-01' = {
 
 var resourceToken = uniqueString(rg.id)
 
-module databaseAccount 'br/public:avm/res/document-db/database-account:0.18.0' = {
+module workload 'modules/workload.bicep' = {
   scope: rg
   params: {
-    name: 'dddamin001'
-
-    zoneRedundant: false
+    location: location
+    resourceToken: resourceToken
+    tags: tags
   }
 }
