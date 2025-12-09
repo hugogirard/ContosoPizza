@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="../../BasketMCP/Contoso.MCP.Basket/Contoso.MCP.Basket.csproj" />
+  <Project Path="../../BasketMCP/Contoso.MCP.Basket/Contoso.MCP.Order.csproj" />
   <Project Path="Contoso.MCP.Menu.csproj" />
 </Solution>

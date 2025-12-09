@@ -18,7 +18,7 @@ public class MenuRepository : IMenuRepository
         _container = db.GetContainer("menu");
     }
 
-    public async Task<IEnumerable<Item>> GetMenu(ItemType? type)
+    public async Task<IEnumerable<Item>> GetMenuAsync(ItemType? type)
     {
         var items = new List<Item>();
         QueryDefinition query;
@@ -43,7 +43,7 @@ public class MenuRepository : IMenuRepository
         return items;
     }
 
-    public async Task<IEnumerable<Item>> GetItemsById(IEnumerable<string> ids) 
+    public async Task<IEnumerable<Item>> GetItemsByIdAsync(IEnumerable<string> ids) 
     {
         var items = new List<Item>();
         var idList = ids.ToList();

@@ -26,7 +26,7 @@ public class MenuTool
     {
         try
         {
-            return await _menuRepository.GetMenu(itemType);
+            return await _menuRepository.GetMenuAsync(itemType);
         }
         catch (Exception ex)
         {
@@ -42,7 +42,7 @@ public class MenuTool
     {
         try
         {
-            return await _menuRepository.GetItemsById(ids);
+            return await _menuRepository.GetItemsByIdAsync(ids);
         }
         catch (Exception ex)
         {
