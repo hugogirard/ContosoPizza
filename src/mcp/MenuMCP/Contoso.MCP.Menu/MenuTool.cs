@@ -34,4 +34,20 @@ public class MenuTool
             throw new Exception("An error occurred while retrieving menu.");
         }
     }
+
+
+    [Function("getItemById")]
+    public async Task<IEnumerable<Item>> GetItemById([McpToolTrigger("getItemById", "Get specific item by list of ids")] ToolInvocationContext context,
+                                                     [McpToolProperty("ids", "The list of item ids to get", isRequired: true)] IEnumerable<string> ids)
+    {
+        try
+        {
+            return await _menuRepository.GetItemsById(ids);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, ex.Message);
+            throw new Exception("An error occurred while retrieving items.");
+        }
+    }
 }
