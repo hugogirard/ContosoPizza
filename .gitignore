@@ -1,3 +1,10 @@
+
+# Visual Studio publish settings
+*.pubxml
+*.publishproj
+Properties/PublishProfiles/
+Properties
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

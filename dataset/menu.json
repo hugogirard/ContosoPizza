@@ -1,146 +1,374 @@
 [
     {
-        "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
-        "type": 0,
-        "name": "Pepperoni",
-        "description": "Classic pepperoni with mozzarella cheese",
-        "price": 12.99,
-        "category": "pizza"
+        "Id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+        "Name": "Pepperoni",
+        "Type": 0,
+        "Ingredients": [
+            {
+                "Id": "7c8e9f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+                "Name": "Pepperoni"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                "Name": "Mozzarella Cheese"
+            },
+            {
+                "Id": "9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d",
+                "Name": "Pizza Sauce"
+            },
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                "Name": "Pizza Dough"
+            }
+        ],
+        "Price": 12.99
     },
     {
-        "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
-        "type": 0,
-        "name": "Margherita",
-        "description": "Fresh tomato, mozzarella, and basil",
-        "price": 10.99,
-        "category": "pizza"
+        "Id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+        "Name": "Margherita",
+        "Type": 0,
+        "Ingredients": [
+            {
+                "Id": "1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b",
+                "Name": "Fresh Tomato"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                "Name": "Mozzarella Cheese"
+            },
+            {
+                "Id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
+                "Name": "Fresh Basil"
+            },
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                "Name": "Pizza Dough"
+            }
+        ],
+        "Price": 10.99
     },
     {
-        "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
-        "type": 0,
-        "name": "BBQ Chicken",
-        "description": "Grilled chicken, BBQ sauce, red onions, and cilantro",
-        "price": 14.99,
-        "category": "pizza"
+        "Id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+        "Name": "BBQ Chicken",
+        "Type": 0,
+        "Ingredients": [
+            {
+                "Id": "4c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f",
+                "Name": "Grilled Chicken"
+            },
+            {
+                "Id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
+                "Name": "BBQ Sauce"
+            },
+            {
+                "Id": "2e3f4a5b-6c7d-8e9f-0a1b-2c3d4e5f6a7b",
+                "Name": "Red Onions"
+            },
+            {
+                "Id": "6c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f",
+                "Name": "Cilantro"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                "Name": "Mozzarella Cheese"
+            },
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                "Name": "Pizza Dough"
+            }
+        ],
+        "Price": 14.99
     },
     {
-        "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
-        "type": 0,
-        "name": "Veggie Supreme",
-        "description": "Bell peppers, onions, mushrooms, olives, and tomatoes",
-        "price": 13.99,
-        "category": "pizza"
+        "Id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+        "Name": "Veggie Supreme",
+        "Type": 0,
+        "Ingredients": [
+            {
+                "Id": "0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+                "Name": "Bell Peppers"
+            },
+            {
+                "Id": "9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e",
+                "Name": "Onions"
+            },
+            {
+                "Id": "f8a9b0c1-d2e3-f4a5-b6c7-d8e9f0a1b2c3",
+                "Name": "Mushrooms"
+            },
+            {
+                "Id": "d2e3f4a5-b6c7-d8e9-f0a1-b2c3d4e5f6a7",
+                "Name": "Olives"
+            },
+            {
+                "Id": "b6c7d8e9-f0a1-b2c3-d4e5-f6a7b8c9d0e1",
+                "Name": "Tomatoes"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                "Name": "Mozzarella Cheese"
+            },
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                "Name": "Pizza Dough"
+            }
+        ],
+        "Price": 13.99
     },
     {
-        "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
-        "type": 0,
-        "name": "Meat Lovers",
-        "description": "Pepperoni, sausage, bacon, and ham",
-        "price": 15.99,
-        "category": "pizza"
+        "Id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+        "Name": "Meat Lovers",
+        "Type": 0,
+        "Ingredients": [
+            {
+                "Id": "7c8e9f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+                "Name": "Pepperoni"
+            },
+            {
+                "Id": "a3b4c5d6-e7f8-a9b0-c1d2-e3f4a5b6c7d8",
+                "Name": "Sausage"
+            },
+            {
+                "Id": "e9f0a1b2-c3d4-e5f6-a7b8-c9d0e1f2a3b4",
+                "Name": "Bacon"
+            },
+            {
+                "Id": "c5d6e7f8-a9b0-c1d2-e3f4-a5b6c7d8e9f0",
+                "Name": "Ham"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                "Name": "Mozzarella Cheese"
+            },
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                "Name": "Pizza Dough"
+            }
+        ],
+        "Price": 15.99
     },
     {
-        "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
-        "type": 0,
-        "name": "Hawaiian",
-        "description": "Ham, pineapple, and mozzarella",
-        "price": 13.49,
-        "category": "pizza"
+        "Id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+        "Name": "Hawaiian",
+        "Type": 0,
+        "Ingredients": [
+            {
+                "Id": "c5d6e7f8-a9b0-c1d2-e3f4-a5b6c7d8e9f0",
+                "Name": "Ham"
+            },
+            {
+                "Id": "a7b8c9d0-e1f2-a3b4-c5d6-e7f8a9b0c1d2",
+                "Name": "Pineapple"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                "Name": "Mozzarella Cheese"
+            },
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                "Name": "Pizza Dough"
+            }
+        ],
+        "Price": 13.49
     },
     {
-        "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
-        "type": 1,
-        "name": "Garlic Bread",
-        "description": "Fresh baked garlic bread with herb butter",
-        "price": 4.99,
-        "category": "side"
+        "Id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+        "Name": "Garlic Bread",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "1f2a3b4c-5d6e-7f8a-9b0c-1d2e3f4a5b6c",
+                "Name": "Bread"
+            },
+            {
+                "Id": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+                "Name": "Garlic"
+            },
+            {
+                "Id": "5d6e7f8a-9b0c-1d2e-3f4a-5b6c7d8e9f0a",
+                "Name": "Herb Butter"
+            }
+        ],
+        "Price": 4.99
     },
     {
-        "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
-        "type": 1,
-        "name": "Caesar Salad",
-        "description": "Crisp romaine lettuce, parmesan, croutons, Caesar dressing",
-        "price": 6.99,
-        "category": "side"
+        "Id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
+        "Name": "Caesar Salad",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2c",
+                "Name": "Romaine Lettuce"
+            },
+            {
+                "Id": "9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e",
+                "Name": "Parmesan Cheese"
+            },
+            {
+                "Id": "1d2e3f4a-5b6c-7d8e-9f0a-1b2c3d4e5f6a",
+                "Name": "Croutons"
+            },
+            {
+                "Id": "3f4a5b6c-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+                "Name": "Caesar Dressing"
+            }
+        ],
+        "Price": 6.99
     },
     {
-        "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
-        "type": 1,
-        "name": "Buffalo Wings",
-        "description": "Spicy buffalo wings with ranch dressing (8 pieces)",
-        "price": 8.99,
-        "category": "side"
+        "Id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
+        "Name": "Buffalo Wings",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e",
+                "Name": "Chicken Wings"
+            },
+            {
+                "Id": "7d8e9f0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a",
+                "Name": "Buffalo Sauce"
+            },
+            {
+                "Id": "9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c",
+                "Name": "Ranch Dressing"
+            }
+        ],
+        "Price": 8.99
     },
     {
-        "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
-        "type": 1,
-        "name": "Mozzarella Sticks",
-        "description": "Breaded mozzarella sticks with marinara sauce (6 pieces)",
-        "price": 5.99,
-        "category": "side"
+        "Id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
+        "Name": "Mozzarella Sticks",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+                "Name": "Mozzarella Cheese"
+            },
+            {
+                "Id": "1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e",
+                "Name": "Bread Crumbs"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8b",
+                "Name": "Marinara Sauce"
+            }
+        ],
+        "Price": 5.99
     },
     {
-        "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
-        "type": 1,
-        "name": "French Fries",
-        "description": "Crispy golden french fries",
-        "price": 3.99,
-        "category": "side"
+        "Id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+        "Name": "French Fries",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0d",
+                "Name": "Potatoes"
+            },
+            {
+                "Id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2f",
+                "Name": "Vegetable Oil"
+            },
+            {
+                "Id": "9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f4b",
+                "Name": "Salt"
+            }
+        ],
+        "Price": 3.99
     },
     {
-        "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
-        "type": 1,
-        "name": "Greek Salad",
-        "description": "Tomatoes, cucumbers, olives, feta cheese, olive oil",
-        "price": 7.99,
-        "category": "side"
+        "Id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
+        "Name": "Greek Salad",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "b6c7d8e9-f0a1-b2c3-d4e5-f6a7b8c9d0e1",
+                "Name": "Tomatoes"
+            },
+            {
+                "Id": "1f2a3b4c-5d6e-7f8a-9b0c-1d2e3f4a5b6d",
+                "Name": "Cucumbers"
+            },
+            {
+                "Id": "d2e3f4a5-b6c7-d8e9-f0a1-b2c3d4e5f6a7",
+                "Name": "Olives"
+            },
+            {
+                "Id": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8f",
+                "Name": "Feta Cheese"
+            },
+            {
+                "Id": "5d6e7f8a-9b0c-1d2e-3f4a-5b6c7d8e9f0b",
+                "Name": "Olive Oil"
+            }
+        ],
+        "Price": 7.99
     },
     {
-        "id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
-        "type": 1,
-        "name": "Onion Rings",
-        "description": "Beer-battered crispy onion rings",
-        "price": 4.49,
-        "category": "side"
+        "Id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
+        "Name": "Onion Rings",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e",
+                "Name": "Onions"
+            },
+            {
+                "Id": "7f8a9b0c-1d2e-3f4a-5b6c-7d8e9f0a1b2d",
+                "Name": "Beer Batter"
+            },
+            {
+                "Id": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2f",
+                "Name": "Vegetable Oil"
+            }
+        ],
+        "Price": 4.49
     },
     {
-        "id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e",
-        "type": 1,
-        "name": "Breadsticks",
-        "description": "Soft breadsticks with marinara dipping sauce",
-        "price": 4.49,
-        "category": "side"
+        "Id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e",
+        "Name": "Breadsticks",
+        "Type": 1,
+        "Ingredients": [
+            {
+                "Id": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
+                "Name": "Pizza Dough"
+            },
+            {
+                "Id": "3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e",
+                "Name": "Garlic"
+            },
+            {
+                "Id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8b",
+                "Name": "Marinara Sauce"
+            }
+        ],
+        "Price": 4.49
     },
     {
-        "id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
-        "type": 2,
-        "name": "Coca-Cola",
-        "description": "Classic Coca-Cola",
-        "price": 2.49,
-        "category": "beverage"
+        "Id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
+        "Name": "Coca-Cola",
+        "Type": 2,
+        "Ingredients": [],
+        "Price": 2.49
     },
     {
-        "id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
-        "type": 2,
-        "name": "Sprite",
-        "description": "Refreshing lemon-lime soda",
-        "price": 2.49,
-        "category": "beverage"
+        "Id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
+        "Name": "Sprite",
+        "Type": 2,
+        "Ingredients": [],
+        "Price": 2.49
     },
     {
-        "id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b",
-        "type": 2,
-        "name": "Iced Tea",
-        "description": "Freshly brewed iced tea",
-        "price": 2.99,
-        "category": "beverage"
+        "Id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b",
+        "Name": "Iced Tea",
+        "Type": 2,
+        "Ingredients": [],
+        "Price": 2.99
     },
     {
-        "id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c",
-        "type": 2,
-        "name": "Bottled Water",
-        "description": "Purified bottled water",
-        "price": 1.99,
-        "category": "beverage"
+        "Id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c",
+        "Name": "Bottled Water",
+        "Type": 2,
+        "Ingredients": [],
+        "Price": 1.99
     }
 ]
